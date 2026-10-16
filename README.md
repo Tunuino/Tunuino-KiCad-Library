@@ -10,7 +10,7 @@ Esta biblioteca foi importada a partir de uma biblioteca KiCad legada e adaptada
 
 ## Licenças e proveniência
 
-Parte do conteúdo tem autores e licenças de terceiros. Consultar `Credit_lic.txt` e as licenças incluídas nas ferramentas de fabrico. O inventário de créditos existente está incompleto e precisa de revisão antes de qualquer relicenciamento.
+Parte do conteúdo pode ter autores e licenças de terceiros. O antigo ficheiro informativo `Credit_lic.txt` foi removido do repositório. As licenças incluídas nas ferramentas de fabrico e os avisos legais dos próprios ficheiros devem ser preservados e revistos antes de qualquer relicenciamento.
 
 Origem histórica da biblioteca: `rusefi/kicad-legacy-libraries`, revisão de referência `6f95125ede0cd79ac943646ba923cc5db0515922`. Esta referência é apenas de proveniência e não constitui uma dependência Git.
 
