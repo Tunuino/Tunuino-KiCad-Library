@@ -1,11 +1,20 @@
-# Tunuino KiCad Library
+This folder contains gerEFI libaries. These files are used by KICAD in circuit board layouts. 
 
-KiCad symbol and footprint library for Tunuino hardware.
+As of Jan 2024 KiCad 4.0.7 is the offical KICAD for gerEFI's layouts. 
 
-Migration status: **in progress**. The original library has not yet been fully copied or validated. Do not use this repository as a drop-in replacement until the migration and KiCad reference checks are complete.
+Please note that you would need to fork https://github.com/gerefi/kicad-libraries if
+you would like to contribute to gerEFI component library - you cannot contribute to
+this using https://github.com/gerefi/gerefi or other repositories
 
-## Source and provenance
 
-The planned import source is `rusefi/kicad-legacy-libraries`, pinned at commit `6f95125ede0cd79ac943646ba923cc5db0515922`.
+.lib schematic symbol (still usually multiple symbols in one file)
 
-Original third-party authorship, copyright and license notices must remain intact. Technical identifiers may be renamed only when their references are updated consistently. A rename does not transfer copyright or change licensing.
+.kicad_mod PCB footprint in KiCad 4+ format (looks like usually one footprint in one file)
+
+.mod - PCB footprint prior to KiCad 4 (could be multiple footprints in one file)
+
+.net is technically not a true source file since it's produced from .sch schematics but
+   InteractiveHtmlBOM likes to use these files as input. Open question how does InteractiveHtmlBOM use these .net files exactly? 
+   
+   
+[HOWTO JLC process](Fabrication/jlc_process.md)   
